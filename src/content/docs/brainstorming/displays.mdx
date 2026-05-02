@@ -5,6 +5,33 @@ sidebar:
   order: 2
 ---
 
+import { Image } from 'astro:assets';
+import LinkedImage from '../../../components/LinkedImage.astro'; 
+
+import simplelcd from '../../../assets/smallinteface.png';
+import waveshare1 from '../../../assets/esp32-s3-lcd-0.85-2.jpg';
+import waveshare2 from '../../../assets/esp32-s3-lcd-0.85-3.jpg';
+import waveshare3 from '../../../assets/ESP32-S3-LCD-0.85-details-15.jpg';
+import waveshare4 from '../../../assets/ESP32-S3-LCD-0.85-details-intro.jpg';
+import waveshare5 from '../../../assets/wavesharelcd2.png';
+
+
+
 ## Simple LED Displays
 
 ![lcd](https://sc04.alicdn.com/kf/H81c2d2ab420e41d897cae5d8f5d62ad7W.jpg)
+
+## Small interface
+
+<Image src={simplelcd} alt="Small interface" />
+
+## Waveshare S3 LCD 0.85 inch
+
+[link](https://www.waveshare.com/esp32-s3-lcd-0.85.htm)
+
+<Image src={waveshare1} alt="waveshare1" />
+<Image src={waveshare2} alt="waveshare2" />
+<Image src={waveshare3} alt="waveshare3" />
+<LinkedImage src={waveshare4} alt="waveshare4" />
+<LinkedImage src={waveshare5} alt="waveshare5" />
+
